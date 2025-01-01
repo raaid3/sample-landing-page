@@ -43,7 +43,7 @@ ul {
     display: flex;
     width: fit-content;
     gap: 0.8em;
-    font-size: 18px;
+    font-size: clamp(0.6rem, 0.1rem + 1vw, 1.2rem);
     color: #E5E7EB;
 }
 
@@ -53,6 +53,7 @@ ul {
     display: flex;
     width: 47%;
     height: 100%;
+    font-size: 1vw;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -61,13 +62,13 @@ ul {
 .section-1 {
     background-color: #1F2937;
     align-self: stretch;
-    min-width: 1480px;
+    min-width: 768px;
     display: flex;
     justify-content: space-between;
     row-gap: 7em;
     flex-wrap: wrap;
-    padding: 0 12%;
-    padding-bottom: 5%;
+    padding: 0 10%;
+    padding-bottom: 8%;
     padding-top: 1%;
 }
 
@@ -88,14 +89,14 @@ ul {
 }
 
 .s1-h {
-    font-size: 64px;
+    font-size: clamp(1rem, 2.3rem + 1vw, 4rem);
     color: #F9FAF8;
     font-weight: 900;
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 
 .s1-st {
-    font-size: 27px;
+    font-size: clamp(0.5rem, 0.4rem + 1vw, 2rem);
     color: #E5E7EB;
 }
 
@@ -110,7 +111,7 @@ ul {
 }
 
 .s1-hl {
-    font-size: 30px;
+    font-size: clamp(0.8rem, 0.8rem + 1vw, 2.5rem);
     font-weight: bold;
     color: #F9FAF8;
 }
