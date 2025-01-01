@@ -116,6 +116,120 @@ ul {
     color: #F9FAF8;
 }
 
+
+/* Section 2 */
+
+.section-2 {
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 768px;
+}
+
+.foods {
+    width: 10rem;
+    border: #3882F6 solid;
+    border-radius: 10px;
+    /* margin: 0 10%; */
+}
+
+.s2-ht {
+    width: 100%;
+    text-align: center;
+    padding: 1.8rem 0;
+
+    font-size: clamp(1rem, 0.5rem + 2vw, 2rem);
+    color: #1F2937;
+    font-weight: 900;
+    /* text-align: center; */
+    /* padding: 60px; */
+}
+
+.s2-c1 {
+    display: flex;
+    /* max-width: 70%; */
+    gap: calc(0.1rem + 3vw);
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    padding: 0 10%;
+
+
+}
+
+.img-text {
+    text-align: center;
+    width: 10rem;
+}
+
+/* Section 3 */
+.section-3 {
+    min-width: 768px;
+    align-self: stretch;
+    background-color: #E5E7EB;
+    padding: 7em 15%;
+}
+
+.quote {
+    font-size: clamp(1rem, 0.5rem + 2vw, 2rem);
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    text-align: end;
+    font-weight: bolder;
+    font-size: clamp(1rem, 0.5rem + 1.5vw, 2rem);
+    margin-top: 1em;
+}
+
+
+/* Section 4 */
+.section-4 {
+    min-width: 768px;
+    align-self: stretch;
+    padding: 7em 14%;
+}
+
+.s4-c, .s4-sb {
+    background-color: #3883F6;
+}
+
+.s4-bt {
+    font-size: calc(0.5rem + 1.5vw);
+    color: white;
+    font-weight: bolder;
+}
+
+.s4-st {
+    display: inline-block;
+    margin-right: auto;
+    color: white;
+    font-size: 1rem;
+}
+
+.s4-c {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 3rem 10%;
+    border-radius: 10px;
+}
+
+
+.s4-sb {
+    display: inline-block;
+    border-radius: 10px;
+    border: white solid 2px;
+    color: white;
+    font-size: calc(0.4rem + 0.9vw);
+    padding: 0.4em 2.5em;
+    margin-left: 2rem;
+    align-self: center;
+    font-weight: bolder;
+}
+
 /* .section-1, .footer {
     background-color: #1F2937;
 }
@@ -311,8 +425,11 @@ a {
 /* Footer Styles */
 
 .footer {
+    min-width: 768px;
+    background-color: #1F2937;
+    align-self: stretch;
     display: flex;
-    padding: 30px;
+    padding: 1.4em;
     justify-content: center;
     align-items: center;
     color: white;
